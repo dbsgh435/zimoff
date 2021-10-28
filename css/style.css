@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+.wrap {
+    margin: 0 auto;
+    position: relative;
+}
+.illust {
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input { 
+    color: #114157;
+    font-weight: 500;
+    font-size: 30px;
+    background: none;
+    border: none;
+    width: 200px;
+    outline: none;
+}
+
+
+.contents {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 5%;
+}
+.search-box {
+    width: 520px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.search-top {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F8F8F8;
+
+}
+.search-top input{
+    text-align: center;
+}
+.search-bottom {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-top>img {
+    width: 66px;
+    height: 66px;
+}
+.search-number {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-day, .search-volume {
+    height: 80px;
+    width: 270px;
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+.search-day input, .search-volume input {
+    font-size: 26px;
+}
+.search-button {
+    width: 230px;
+    height: 100%;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #1D2088;
+}
+.search-top, .search-day, .search-volume {
+    border: 1px solid #F29886;
+}
+
+.logo img {
+    width: 430px;
+    height: 200px;
+}
+
+
+
+
+.modal {
+    width: 600px;
+    height: 570px;
+}
+
+
+
+
+.illust>img {
+    position: absolute;
+}
+
+.cloud {
+    width: 125px;
+    height: 75px;
+}
+.cloud:nth-child(4) {
+    left: 20%;
+    top: 7%;
+}
+.cloud:nth-child(5) {
+    left: 62%;
+    top: 3%;
+}
+.cloud:nth-child(6) {
+    left: 82%;
+    top: 19%;
+}
+.mountane {
+    width: 410px;
+    height: 180px;
+    left: 42%;
+    top: 64%;
+}
+.airport {
+    width: 490px;
+    height: 155px;
+    left: 70%;
+    top: 55%;
+}
+.city {
+    width: 430px;
+    height: 220px;
+    left: 70%;
+    top: 74%;
+}
+.pasture {
+    width: 220px;
+    height: 105px;
+    left: 35%;
+    top: 84%;
+}
+.ihoteu {
+    width: 180px;
+    height: 125px;
+    left: 16%;
+    top: 52%;
+}
+.town {
+    width: 230px;
+    height: 145px;
+    left: 25%;
+    top: 64%;
+}
+.stone {
+    width: 235px;
+    height: 150px;
+    left: 15%;
+    top: 83%;
+}
+.wind {
+    width: 195px;
+    height: 175px;
+    left: 3%;
+    top: 53%;
+}
+.red-zim {
+    width: 425px;
+    height: 95px;
+    left: 3%;
+    top: 72%;
+}
+.mint-zim {
+    width: 530px;
+    height: 95px;
+    left: 43%;
+    top: 87%;
+}
+.yellow-zim {
+    width: 275px;
+    height: 95px;
+    left: 63%;
+    top: 69%;
+}
+
+

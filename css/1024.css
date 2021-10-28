@@ -1,0 +1,37 @@
+@media screen and (max-width : 1024px) {
+    .illust {
+        width: 1024px;
+        height: 444px;
+        top: 330px;
+    }
+    
+    
+    .search-box, .logo {
+        transform: scale(0.6);
+    }
+    .search-box {
+        margin-top: -80px
+    }
+    
+    
+    
+    .illust>img {
+        transform: scale(0.6);
+    }
+    .airport {
+        left: 60%;
+    }
+    .city {
+        left: 60%;
+    }
+    .mint-zim {
+        left: 28%;
+        top: 95%;
+    }
+    .yellow-zim {
+        top: 75%;
+    }
+    .red-zim {
+        top: 80%;
+    }
+}
