@@ -1,0 +1,43 @@
+@media screen and (max-width : 480px) {
+    .illust {
+        width: 480px;
+        height: 800px;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .search-box {
+        width: 480px;
+    }
+    .search-day, .search-volume {
+        width: 230px;
+    }
+    
+    .search-box, .logo {
+        transform: scale(0.5);
+    }
+    .search-box {
+        margin-top: -120px
+    }
+    
+    
+    
+    .illust>img {
+        transform: scale(0.4);
+    }
+    .mountane {
+        left: 5%;
+        top: 40%;
+    }
+    .city {
+        left: 60%;
+    }
+    .red-zim {
+        top: 54%;
+        left: 15%;
+    }
+    .town ,.cloud:nth-child(6), .stone, .airport, .mint-zim, .yellow-zim, .ihoteu, .wind, .pasture {
+        display: none;
+    }
+}
